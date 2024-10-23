@@ -26,5 +26,24 @@ By leveraging data analytics, this project seeks to equip Synergy Manufacturers 
 
 ### Dataset Details
 
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/43766d3fbd75527a49f390dc4253e173a8bdb5e8/Dataset%20pic.png)
 
+The dataset consists of 5,226 rows and 9 columns. The column details are given below:
 
+**Date:** This is the date when the defect was recorded, with date values ranging from 2018 to 2019.
+
+**Vendor:** This consists of 318 different names or identifier of the supplier providing the materials
+
+**Plant Location:** There are 30 different geographic locations of the plant where the material was used.
+
+**Category:** The materials are categorized/classified into 6 different groups which include Mechanicals, Electricals, Logistics, Materials and Components, Packaging, Goods & Services.
+
+**Material Type:** 22 different types of materials were used such as the Raw materials, Corrugate, Glass etc.
+
+**Defect Type:** The defect observed in the material were classified into three, which include Impact, No Impact and Rejected.
+
+**Defect:** This consists of 268 different defects/faults found in the materials such as Bad seams, Not certified, Print defects etc.
+
+**Total Defect Quantity:** This is the total number of defective materials recorded, ranging from 215 to 999,759.
+
+**Total Downtime Minutes:** This is the total number of minutes of downtime caused by the defective materials, ranging from 0 to 5000 minutes.
