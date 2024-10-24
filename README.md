@@ -87,4 +87,33 @@ In order to improve performance and reduce redundancy (i.e. longer-than-usual ru
 
 •	On the model view, the automatically derived relationships were adjusted to remove and replace unwanted relationships with the required. Here, the primary keys on the six dimension tables were connected to the foreign key on the fact table, leading to the formation of a **star schema model**. The dimension tables were all joined to the fact table with a **one-to-many relationship**.
 
+### Data Analysis
+
+The data model was brought to life through a series of interactive dashboards and reports that would provide actionable insights and facilitate data-driven decision making.
+
+Based on the available data, the three key metrics I focused on were:
+
+•	**Downtime:** The total hours lost due to defective materials
+
+•	**Defect Quantity:** The number of defective units received from the suppliers
+
+•	**Downtime Cost:** This is the monetary cost or expense incurred during downtime, where I assumed the company was losing $10 per downtime hour.
+
+In alignment with the manufacturing industry’s practice of calculating costs on an hourly basis, the downtime was presented in hours, ensuring consistency in the report.
+
+### Detailed Dashboard/Report Features
+
+**Homepage**
+
+HOME PAGE PIC
+
+The added homepage is a clean and professional interface with navigation bar that allows stakeholders /users to effortlessly switch between the core areas of the report, each focusing on different aspect of supplier quality and performance.
+
+The focus here is on leveraging graphic design to create an intuitive, visually appealing dashboard that improves the user experience, enabling stakeholders and even non-technical-decision-makers to explore critical metrics effortlessly.
+
+Overview Page
+OVERVIEW PAGE PICS
+•	The top section of this page provides the most critical metrics which are the Defects, Downtime Hours & Downtime Cost, along with percentage changes compared to the previous month and year. A custom Downtime Cost/Hour (i.e. $10) was set for calculating the financial impact and to know the cost implication of the downtime.
+•	A monthly trend chart was added, which shows how the defect quantity and downtime hours metrics changed throughout the year.
+•	Another section of the page indicates the worst performers by vendor, plant, material and defect type.
 
