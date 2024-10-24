@@ -47,3 +47,44 @@ The dataset consists of 5,226 rows and 9 columns. The column details are given b
 **Total Defect Quantity:** This is the total number of defective materials recorded, ranging from 215 to 999,759.
 
 **Total Downtime Minutes:** This is the total number of minutes of downtime caused by the defective materials, ranging from 0 to 5000 minutes.
+
+## Methodology
+
+### Data Cleaning
+Although the data required minimal cleaning, these few validation steps were carried out using the power query editor
+
+•	Data types were validated throughout the columns
+
+•	No missing values were observed, as seen by the 100% validity and 0% emptiness given from the column quality in each column
+
+•	No duplicate values were found in the dataset
+
+### Data Modelling
+
+In order to improve performance and reduce redundancy (i.e. longer-than-usual run times) from the large dataset when generating reports, the following steps were carried out on the power query editor to normalize the cleaned dataset (by splitting the table into fact table & dimension tables) and then connect the normalized tables on the powerbi desktop.
+
+**Segmentation into dimension tables:**
+
+•	The dimension tables were created for the categories like the Vendor, Plant Location, Material Type, Category, Defect & Defect Type. This was achieved by duplicating the original query for each dimension table that was to be created.
+
+•	Each query was renamed according to its respective role in the model, such as **Supplier Fact Table** for the central metrics like Total Defect Quantity & Total Downtime Minutes, and **Dimension Tables** for categories like **Vendor**, **Plant Location**, **Material Type**, **Category**, **Defect** & **Defect Type**.
+
+•	For each dimension table, only the specific column relevant to that dimension was retained. This was to ensure that each table contained only the information necessary for the analysis. Duplicates were removed from each table so as to have only the unique column values.
+
+•	An index column was also added for each dimension, serving as primary key for unique row identification.
+
+**Building the Fact Table:**
+
+•	The primary keys on the dimension tables were replicated on the supplier fact table. This was achieved by merging each dimension table to the fact table through their common column using the inner join. From the drop down beside this new column, only the unique ID column was checked/selected while other columns were deselected.
+
+•	These newly added columns on the fact table which consist of the unique identity values were all renamed accordingly
+
+•	After closing the power query editor and all changes applied, the normalized data tables were loaded into the powerbi desktop.
+
+**Creating the Calendar Table:**
+
+•	An accurate date table that enabled effective time series analysis was built using the DAX (Data Analysis Expressions) functions – ADD COLUMN, CALENDAR AUTO and other Date functions. This automatically creates a date dimension table based on the dates in the data model.
+
+•	On the model view, the automatically derived relationships were adjusted to remove and replace unwanted relationships with the required. Here, the primary keys on the six dimension tables were connected to the foreign key on the fact table, leading to the formation of a **star schema model**. The dimension tables were all joined to the fact table with a **one-to-many relationship**.
+
+
