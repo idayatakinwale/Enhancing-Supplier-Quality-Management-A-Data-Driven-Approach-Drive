@@ -48,7 +48,8 @@ The dataset consists of 5,226 rows and 9 columns. The column details are given b
 
 **Total Downtime Minutes:** This is the total number of minutes of downtime caused by the defective materials, ranging from 0 to 5000 minutes.
 
-## METHODOLOGY
+### METHODOLOGY
+---
 
 ### Data Cleaning
 Although the data required minimal cleaning, these few validation steps were carried out using the power query editor
@@ -90,9 +91,11 @@ In order to improve performance and reduce redundancy (i.e. longer-than-usual ru
 
 ![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/1d74444ca2b664cf2c3cc9c964c09f1c700f469b/Date%20Table.png)
 
+
 •	On the model view, the automatically derived relationships were adjusted to remove and replace unwanted relationships with the required. Here, the primary keys on the six dimension tables were connected to the foreign key on the fact table, leading to the formation of a **star schema model**. The dimension tables were all joined to the fact table with a **one-to-many relationship**.
 
 ![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/8a4e5b45ea3a70f90419174f6d399fcc41f99d2c/Data%20model%20.png)
+
 
 ### DATA ANALYSIS
 ---
