@@ -88,7 +88,7 @@ In order to improve performance and reduce redundancy (i.e. longer-than-usual ru
 
 •	An accurate date table that enabled effective time series analysis was built using the DAX (Data Analysis Expressions) functions – ADD COLUMN, CALENDAR AUTO and other Date functions. This automatically creates a date dimension table based on the dates in the data model.
 
-
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/1d74444ca2b664cf2c3cc9c964c09f1c700f469b/Date%20Table.png)
 
 •	On the model view, the automatically derived relationships were adjusted to remove and replace unwanted relationships with the required. Here, the primary keys on the six dimension tables were connected to the foreign key on the fact table, leading to the formation of a **star schema model**. The dimension tables were all joined to the fact table with a **one-to-many relationship**.
 
@@ -209,26 +209,46 @@ The **vendor-plant combinations** with the worst performances are vendors **Yomb
 
 
 ### RECOMMENDATIONS
-1.	Targeted Vendor Quality Improvement Initiatives:
+
+1.	**Targeted Vendor Quality Improvement Initiatives:**
+   
 •	Develop and implement enhanced inspection and testing procedures for materials received from worst-performing vendors (Yombu, Avamm, Meejo).
+
 •	Establish supplier quality agreements that include performance-based incentives or penalties tied to defect rates and downtime.
+
 •	Develop strategic partnerships with reliable vendors.
+
 •	Implement Total Quality Management (TQM) principles such as employee involvement, customer focus, process approach and fact-based decision making.
 
-2.	Plant-Specific Action plan
-o	Develop targeted improvement programs for plants in Hingham, Charles City, and Twin Rocks. This could include process audits, operator training, and equipment maintenance to reduce defect-related downtime.
-o	Consider cross-plant quality reviews to share best practices and address common issues.
-o	Invest in automation and technology to reduce manual errors, enhance visibility and ensure consistency across operations.
-3.	Enhanced Quality Control Measures
-o	Implement more rigorous incoming quality inspection and testing for raw materials and corrugates, given their significant contribution to downtime.
-o	Work on root cause analysis for mechanical and logistics defects, addressing equipment maintenance needs and optimizing supply chain processes.
-o	Focus on resolving the "Not Certified" and "Bad Seams" issues by tightening quality control measures, revising inspection procedures, ensuring compliance with regulatory standards and implementing continuous improvement projects targeting these defect categories.
-o	Conduct regular training sessions for production staff on quality control and establish a cross-functional team to monitor and address quality issues
-4.	Identify and Mitigate Other Downtime Factors:
-o	Investigate non-defect-related causes of downtime, including equipment failures, power issues, and staffing shortages. Implement preventive maintenance and contingency plans.
-o	Use downtime data to identify patterns or external factors that correlate with high downtime events.
-CONCLUSION
+2.	**Plant-Specific Action plan:**
+   
+•	Develop targeted improvement programs for plants in Hingham, Charles City, and Twin Rocks. This could include process audits, operator training, and equipment maintenance to reduce defect-related downtime.
+
+•	Consider cross-plant quality reviews to share best practices and address common issues.
+
+•	Invest in automation and technology to reduce manual errors, enhance visibility and ensure consistency across operations.
+
+3.	**Enhanced Quality Control Measures:**
+
+•	Implement more rigorous incoming quality inspection and testing for raw materials and corrugates, given their significant contribution to downtime.
+
+•	Work on root cause analysis for mechanical and logistics defects, addressing equipment maintenance needs and optimizing supply chain processes.
+
+•	Focus on resolving the "Not Certified" and "Bad Seams" issues by tightening quality control measures, revising inspection procedures, ensuring compliance with regulatory standards and implementing continuous improvement projects targeting these defect categories.
+
+•	Conduct regular training sessions for production staff on quality control and establish a cross-functional team to monitor and address quality issues.
+
+4.	**Identify and Mitigate Other Downtime Factors:**
+   
+•	Investigate non-defect-related causes of downtime, including equipment failures, power issues, and staffing shortages. Implement preventive maintenance and contingency plans.
+
+•	Use downtime data to identify patterns or external factors that correlate with high downtime events.
+
+
+**CONCLUSION**
+
 The supplier quality and performance analysis revealed significant correlations between defective materials, downtime and financial losses. Key findings highlighted worst-performing vendors (Yombu, Avamm, Meejo) and plant-specific issues in Hingham, Charles City & Twin Rocks. Raw materials and Corrugates emerged as problematic material types. The analysis demonstrated the need for enhanced quality control measures, regular audits and feedback for vendor improvement.
+
 By addressing supplier quality issues and implementing total quality management, the company can improve production efficiency, reduce costs (estimated $2.16 million), and enhance customer satisfaction. Continuous monitoring and analysis of supplier performance will ensure sustainability. Effective implementation will require employee training, involvement and a cultural shift toward continuous improvement.
 
 
