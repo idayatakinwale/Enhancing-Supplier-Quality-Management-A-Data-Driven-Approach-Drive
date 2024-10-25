@@ -88,8 +88,11 @@ In order to improve performance and reduce redundancy (i.e. longer-than-usual ru
 
 •	An accurate date table that enabled effective time series analysis was built using the DAX (Data Analysis Expressions) functions – ADD COLUMN, CALENDAR AUTO and other Date functions. This automatically creates a date dimension table based on the dates in the data model.
 
+
+
 •	On the model view, the automatically derived relationships were adjusted to remove and replace unwanted relationships with the required. Here, the primary keys on the six dimension tables were connected to the foreign key on the fact table, leading to the formation of a **star schema model**. The dimension tables were all joined to the fact table with a **one-to-many relationship**.
 
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/8a4e5b45ea3a70f90419174f6d399fcc41f99d2c/Data%20model%20.png)
 
 ### DATA ANALYSIS
 ---
