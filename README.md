@@ -16,7 +16,6 @@ The **primary objectives** include identifying vendors and plants with the highe
 By leveraging data analytics, this project seeks to equip Synergy Manufacturers Ltd. with the knowledge required to make informed decisions, improve the overall quality of raw materials sourced for production, quantify the financial implications of poor quality and identify the primary sources of these issues.
 
 ### Key Questions Addressed
----
 
 1.	Which vendors/plants are causing the greatest defect quantity?
 2.	Which vendors/plants are causing the greatest downtime?
@@ -25,6 +24,7 @@ By leveraging data analytics, this project seeks to equip Synergy Manufacturers 
 5.	How does the same vendor and material perform across different plants?
 
 ### DATASET DETAILS
+---
 
 ![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/43766d3fbd75527a49f390dc4253e173a8bdb5e8/Dataset%20pic.png)
 
@@ -111,7 +111,7 @@ In alignment with the manufacturing industry’s practice of calculating costs o
 
 
 ### Detailed Dashboard/Report Features
----
+
 
 #### Homepage
 
@@ -124,7 +124,7 @@ The focus here is on leveraging graphic design to create an intuitive, visually 
 
 #### Overview Page
 
-OVERVIEW PAGE PICS
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/61ce3f08a49584423ddfa0011e524f0a30e09439/Overview.png)
 
 •	The top section of this page provides the most critical metrics which are the **Defects**, **Downtime Hours** & **Downtime Cost**, along with percentage changes compared to the previous month and previous year. A custom **Downtime Cost/Hour** (in this case, $10) was set for calculating the financial impact and to know the cost implication of the downtime.
 
@@ -185,32 +185,32 @@ PICS
 
 ### KEY INSIGHTS/ FINDINGS
 
-	**Rising Defect & Downtime:** The Total defect quantities increased to **2.6 billion** units, with a corresponding increase in downtime to **216,000 hours**, leading to a financial impact of **$2.16 million** underscoring the direct cost of defective materials on production efficiency.
+•	**Rising Defect & Downtime:** The Total defect quantities increased to **2.6 billion** units, with a corresponding increase in downtime to **216,000 hours**, leading to a financial impact of **$2.16 million** underscoring the direct cost of defective materials on production efficiency.
 
-	**Financial Impact:** A crucial insight from the analysis is the direct correlation between downtime and financial losses. Assuming a downtime cost of $10 per hour, the company incurred over $2 million in downtime costs, with spikes in March and October indicating periods of severe disruption. This financial perspective provides stakeholders with a clear understanding of how supplier quality issues are affecting the bottom line.
+•	**Financial Impact:** A crucial insight from the analysis is the direct correlation between downtime and financial losses. Assuming a downtime cost of $10 per hour, the company incurred over $2 million in downtime costs, with spikes in March and October indicating periods of severe disruption. This financial perspective provides stakeholders with a clear understanding of how supplier quality issues are affecting the bottom line.
 
-	**Worst-Performing Vendors:** Vendors like **Yombu**, **Avamm** and **Meejo** emerged as the worst-performing vendors contributing the highest defect quantities and significant downtime hours. This reflects the need to enhance inspection and testing procedures for materials received from these suppliers.
+•	**Worst-Performing Vendors:** Vendors like **Yombu**, **Avamm** and **Meejo** emerged as the worst-performing vendors contributing the highest defect quantities and significant downtime hours. This reflects the need to enhance inspection and testing procedures for materials received from these suppliers.
 
 The positive correlation observed between the downtime and defect quantity indicates that there is direct relationship between the quality of materials and production efficiency, hence vendors with higher defect rates are likely to cause more production disruptions.
 
-	**Plant-Specific Issues:** From the analysis of the plant performance, plant locations in **Hingham**, **Charles City** and **Twin Rocks** had the greatest contribution to defect-related downtime, with each plant reporting defect quantities of about **100 million** and downtime of nearly **9,000 hours**
+•	**Plant-Specific Issues:** From the analysis of the plant performance, plant locations in **Hingham**, **Charles City** and **Twin Rocks** had the greatest contribution to defect-related downtime, with each plant reporting defect quantities of about **100 million** and downtime of nearly **9,000 hours**
 
-	**Material Performance:** The **Raw materials** were observed to be the most problematic material type causing a significant downtime of about      , closely followed by the **Corrugates**. This indicates the need for improved quality control processes.
+•	**Material Performance:** The **Raw materials** were observed to be the most problematic material type causing a significant downtime of about      , closely followed by the **Corrugates**. This indicates the need for improved quality control processes.
 
 The rising trends in the **mechanical** and **logistics** category of material defects suggests the need for equipment maintenance and supply chain optimization.
 
-	**Defect Categories:** Material defects tagged **Not Certified** and **Bad Seams** were the most frequent recurring issues, indicating the regulatory non-compliance and insufficient quality control measures.
+•	**Defect Categories:** Material defects tagged **Not Certified** and **Bad Seams** were the most frequent recurring issues, indicating the regulatory non-compliance and insufficient quality control measures.
 
-	**Vendor-Material/Plant Combinations:** In analyzing the worst performing vendor-material combination, the vendor **Twitter beat** when supplying **Raw materials** caused significant downtime of about **412 hours** with **5.9 million** defects, resulting in nearly **$4,120** financial loss. Vendor **Seed fire** while supplying **Corrugates** also caused a critical/substantial downtime of **568 hours** with about **5 million** defects.
+•	**Vendor-Material/Plant Combinations:** In analyzing the worst performing vendor-material combination, the vendor **Twitter beat** when supplying **Raw materials** caused significant downtime of about **412 hours** with **5.9 million** defects, resulting in nearly **$4,120** financial loss. Vendor **Seed fire** while supplying **Corrugates** also caused a critical/substantial downtime of **568 hours** with about **5 million** defects.
 
 The **vendor-plant combinations** with the worst performances are vendors **Yombu** supplying material to plant **Prescott**, where a significant downtime of **200 hours** was recorded with **3.2 million** defects. Vendor **Gevee** supplying to plant **Waldoboro** also caused a considerable downtime of  **241 hours** with **3 million** defect, resulting in nearly **$2,500** in lost productivity.
 
-	Even though a positive correlation was observed while visualizing the defect impact on downtime, there were instances where the number of defects were lower but downtimes were higher and vice versa, indicating that downtimes were not always caused by defective material alone i.e. there are other unknown factors causing the downtime such as machine failures, power outages, staffing shortages or delays in receiving materials.
+•	Even though a positive correlation was observed while visualizing the defect impact on downtime, there were instances where the number of defects were lower but downtimes were higher and vice versa, indicating that downtimes were not always caused by defective material alone i.e. there are other unknown factors causing the downtime such as machine failures, power outages, staffing shortages or delays in receiving materials.
 
 
 ### RECOMMENDATIONS
 
-1.	**Targeted Vendor Quality Improvement Initiatives:**
+**1.	Targeted Vendor Quality Improvement Initiatives:**
    
 •	Develop and implement enhanced inspection and testing procedures for materials received from worst-performing vendors (Yombu, Avamm, Meejo).
 
@@ -220,7 +220,7 @@ The **vendor-plant combinations** with the worst performances are vendors **Yomb
 
 •	Implement Total Quality Management (TQM) principles such as employee involvement, customer focus, process approach and fact-based decision making.
 
-2.	**Plant-Specific Action plan:**
+**2.	Plant-Specific Action plan:**
    
 •	Develop targeted improvement programs for plants in Hingham, Charles City, and Twin Rocks. This could include process audits, operator training, and equipment maintenance to reduce defect-related downtime.
 
@@ -228,7 +228,7 @@ The **vendor-plant combinations** with the worst performances are vendors **Yomb
 
 •	Invest in automation and technology to reduce manual errors, enhance visibility and ensure consistency across operations.
 
-3.	**Enhanced Quality Control Measures:**
+**3.	Enhanced Quality Control Measures:**
 
 •	Implement more rigorous incoming quality inspection and testing for raw materials and corrugates, given their significant contribution to downtime.
 
@@ -238,14 +238,14 @@ The **vendor-plant combinations** with the worst performances are vendors **Yomb
 
 •	Conduct regular training sessions for production staff on quality control and establish a cross-functional team to monitor and address quality issues.
 
-4.	**Identify and Mitigate Other Downtime Factors:**
+**4.	Identify and Mitigate Other Downtime Factors:**
    
 •	Investigate non-defect-related causes of downtime, including equipment failures, power issues, and staffing shortages. Implement preventive maintenance and contingency plans.
 
 •	Use downtime data to identify patterns or external factors that correlate with high downtime events.
 
 
-**CONCLUSION**
+### CONCLUSION
 
 The supplier quality and performance analysis revealed significant correlations between defective materials, downtime and financial losses. Key findings highlighted worst-performing vendors (Yombu, Avamm, Meejo) and plant-specific issues in Hingham, Charles City & Twin Rocks. Raw materials and Corrugates emerged as problematic material types. The analysis demonstrated the need for enhanced quality control measures, regular audits and feedback for vendor improvement.
 
