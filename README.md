@@ -1,6 +1,6 @@
 # SUPPLIER QUALITY AND PERFORMANCE ANALYSIS
 
-![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/e16a601cb6001b1bad13fb54faba3507fb086980/company%20pic.png)
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/83b77fc1b63f20bed312168a7f42d96f62e2e8df/Images/company%20pic.png)
 
 In today's competitive manufacturing landscape, ensuring the quality of raw materials is essential for operational efficiency and product excellence. This project addresses a critical gap in the procurement and supplier management processes at Synergy Manufacturers Ltd, which currently lacks a centralized system to evaluate and monitor supplier performance.
 
