@@ -127,7 +127,7 @@ The focus here is on leveraging graphic design to create an intuitive, visually 
 
 #### Overview Page
 
-![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/61ce3f08a49584423ddfa0011e524f0a30e09439/Overview.png)
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/522531d95469a30e4ab2ec5a58cb4b5b6b71f3b0/Images/Overview.png)
 
 •	The top section of this page provides the most critical metrics which are the **Defects**, **Downtime Hours** & **Downtime Cost**, along with percentage changes compared to the previous month and previous year. A custom **Downtime Cost/Hour** (in this case, $10) was set for calculating the financial impact and to know the cost implication of the downtime.
 
