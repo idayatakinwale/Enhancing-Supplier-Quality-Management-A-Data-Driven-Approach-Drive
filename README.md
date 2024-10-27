@@ -177,7 +177,7 @@ This page generally highlights the suppliers contributing the most to the produc
 
 #### Downtime Impact
 
-PICS
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/10b15e1501701eaeba536632c4953cd0933b1b5d/Impact.png)
 
 •	The great financial impact of downtime caused by the defective materials is seen in the downtime cost analysis, which provides a breakdown of the downtime cost per hour, highlighting specific days where costs were highest, with March and October being the month with the highest cost. 
 
