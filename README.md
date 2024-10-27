@@ -118,7 +118,7 @@ In alignment with the manufacturing industry’s practice of calculating costs o
 
 #### Homepage
 
-![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/bea4f770d64e4e82ae6d423c54dc2089c10438f7/Landing%20Page.png)
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/efbcb60a6cc4471fccb01d5168760937c0ff9922/Images/Landing%20Page.png)
 
 The added homepage is a clean and professional interface with navigation bar that allows stakeholders /users to effortlessly switch between the core areas of the report, each focusing on different aspect of supplier quality and performance.
 
