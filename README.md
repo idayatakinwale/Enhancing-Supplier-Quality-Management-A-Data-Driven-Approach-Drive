@@ -26,7 +26,7 @@ By leveraging data analytics, this project seeks to equip Synergy Manufacturers 
 ### DATASET DETAILS
 ---
 
-![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/43766d3fbd75527a49f390dc4253e173a8bdb5e8/Dataset%20pic.png)
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/2c98d50804f30152a794945f55752ba970ac16d9/Images/Dataset%20pic.png)
 
 The dataset consists of 5,226 rows and 9 columns. The column details are given below:
 
