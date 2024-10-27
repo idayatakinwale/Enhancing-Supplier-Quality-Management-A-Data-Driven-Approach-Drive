@@ -153,7 +153,7 @@ This page generally highlights the suppliers contributing the most to the produc
 
 #### Plant Performance
 
-![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/482437f3b19bde02517d343d9c1bdd955b86731f/plant.png)
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/17f8cd827bf4fbab7351ba330345d6b0f90a5618/Images/plant.png)
 
 •	A Top N Analysis was used to identify the top & bottom performing plants based on the defect quantity and downtime metrics.
 
