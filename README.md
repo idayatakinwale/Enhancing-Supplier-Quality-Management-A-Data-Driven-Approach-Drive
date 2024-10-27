@@ -187,6 +187,7 @@ This page generally highlights the suppliers contributing the most to the produc
 
 
 ### KEY INSIGHTS/ FINDINGS
+---
 
 •	**Rising Defect & Downtime:** The Total defect quantities increased to **2.6 billion** units, with a corresponding increase in downtime to **216,000 hours**, leading to a financial impact of **$2.16 million** underscoring the direct cost of defective materials on production efficiency.
 
@@ -212,7 +213,7 @@ The **vendor-plant combinations** with the worst performances are vendors **Yomb
 
 
 ### RECOMMENDATIONS
-
+---
 **1.	Targeted Vendor Quality Improvement Initiatives:**
    
 •	Develop and implement enhanced inspection and testing procedures for materials received from worst-performing vendors (Yombu, Avamm, Meejo).
@@ -249,8 +250,9 @@ The **vendor-plant combinations** with the worst performances are vendors **Yomb
 
 
 ### CONCLUSION
+---
 
-The supplier quality and performance analysis revealed significant correlations between defective materials, downtime and financial losses. Key findings highlighted worst-performing vendors (Yombu, Avamm, Meejo) and plant-specific issues in Hingham, Charles City & Twin Rocks. Raw materials and Corrugates emerged as problematic material types. The analysis demonstrated the need for enhanced quality control measures, regular audits and feedback for vendor improvement.
+The supplier quality and performance analysis revealed significant correlations between defective materials, downtime and financial losses. Key findings highlighted worst-performing vendors (Yombu, Avamm, Meejo) and plant-specific issues in Hingham, Charles City & Twin Rocks. Raw materials and Corrugates emerged as the problematic material types. The analysis demonstrated the need for enhanced quality control measures, regular audits and feedback for vendor improvement.
 
 By addressing supplier quality issues and implementing total quality management, the company can improve production efficiency, reduce costs (estimated $2.16 million), and enhance customer satisfaction. Continuous monitoring and analysis of supplier performance will ensure sustainability. Effective implementation will require employee training, involvement and a cultural shift toward continuous improvement.
 
