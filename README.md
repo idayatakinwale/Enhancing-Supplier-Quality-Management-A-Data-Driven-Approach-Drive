@@ -140,7 +140,7 @@ The focus here is on leveraging graphic design to create an intuitive, visually 
 
 #### Vendor Performance Page
 
-![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/1691721ac2eb84ad928d7082794541b97b9ea7a8/vendor.png)
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/0a7c8ef77d3d69732a927e06c5bbd25cf72a6d5f/Images/vendor.png)
 
 This page generally highlights the suppliers contributing the most to the production issues of the manufacturing company.
 
