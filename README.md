@@ -176,7 +176,7 @@ This page generally highlights the suppliers contributing the most to the produc
 
 #### Downtime Impact
 
-![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/10b15e1501701eaeba536632c4953cd0933b1b5d/Impact.png)
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/b497ca89a1e19d4688a0b21a79edd646dba66823/Images/Impact.png)
 
 •	The great financial impact of downtime caused by the defective materials is seen in the downtime cost analysis, which provides a breakdown of the downtime cost per hour, highlighting specific days where costs were highest, with March and October being the month with the highest cost. 
 
@@ -198,7 +198,7 @@ The positive correlation observed between the downtime and defect quantity indic
 
 •	**Plant-Specific Issues:** From the analysis of the plant performance, plant locations in **Hingham**, **Charles City** and **Twin Rocks** had the greatest contribution to defect-related downtime, with each plant reporting defect quantities of about **100 million** and downtime of nearly **9,000 hours**
 
-•	**Material Performance:** The **Raw materials** were observed to be the most problematic material type causing a significant downtime of about      , closely followed by the **Corrugates**. This indicates the need for improved quality control processes.
+•	**Material Performance:** The **Raw materials** were observed to be the most problematic material type causing a significant downtime of about 66,000 hours, closely followed by the **Corrugates**. This indicates the need for improved quality control processes.
 
 The rising trends in the **mechanical** and **logistics** category of material defects suggests the need for equipment maintenance and supply chain optimization.
 
