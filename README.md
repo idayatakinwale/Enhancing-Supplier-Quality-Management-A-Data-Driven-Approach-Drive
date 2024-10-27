@@ -164,7 +164,7 @@ This page generally highlights the suppliers contributing the most to the produc
 
 #### Material Performance
 
-PICS
+![](https://github.com/idayatakinwale/Enhancing-Supplier-Quality-Management-through-Data-Analysis/blob/256dadad2f8dc121896e2c335d61987fd90ec04e/material.png)
 
 •	In analyzing the material performance, a detailed breakdown of the key metrics was provided, including downtime by material type, defect type and category.
 
